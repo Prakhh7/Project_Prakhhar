@@ -1,0 +1,472 @@
+    1  sudo apt-get update
+    2  sudo apt-get install git
+    3  git --version
+    4  sudo apt-get install apache
+    5  sudo apt-get update
+    6  sudo apt-get install virtualbox
+    7  gedit root.c
+    8  mkdir lab6
+    9  cd lab6
+   10  git init
+   11  gedit f1.txt
+   12  gedit f2.txt
+   13  gedit f3.txt
+   14  git config --user.name "Prakhh7"
+   15  git config --global user.name"Prakhh7"
+   16  git config --global user.email"prakhhartandon7@gmail.com"
+   17  git add .
+   18  git commit -m "First Commit"
+   19  git config --global user.name "Prakhh7"
+   20  git config --global user.email"prakhhartandon7@gmail.com"
+   21  git add .
+   22  git commit -m "First Commit"
+   23  git config --global user.email "Prakhh7"
+   24  cd lab 6
+   25  git config --global user.name "Prakhh7"
+   26  git config --global user.email "prakhhartandon7@gmail.com"
+   27  git add .
+   28  git commit -m "First Commit"
+   29  git remote add origin master https://github.com/Prakhh7/Lab6.git
+   30  git remote add origin https://github.com/Prakhh7/Lab6.git
+   31  git push -u origin
+   32  git push -u origin master
+   33  gedit f1.txt
+   34  gedit f3.txt
+   35  git commit .
+   36  git commit f1.txt
+   37  git status
+   38  git add f1.txt
+   39  git add f3.txt
+   40  git add f2.txt
+   41  git push -u origin master
+   42  git add .
+   43  git commit -m "Second Commit"
+   44  git push -u origin master
+   45  git status
+   46  gedit f1.txt
+   47  gedit f2.txt
+   48  git add .
+   49  git push -u origin master
+   50  git commit -m "Third Commit"
+   51  git push -u origin master
+   52  gedit f2.txt
+   53  gedit f3.txt
+   54  git add .
+   55  git commit -m "Fourth Commit"
+   56  git push -u origin master
+   57  git reset --soft f1c2ec7
+   58  git status
+   59  git add f2.txt
+   60  git reset --soft f1c2ec7
+   61  git status
+   62  git reset --soft head 6c9dec6
+   63  git reset --soft 6c9dec6
+   64  git status
+   65  git log
+   66  cat f2.txt 
+   67  git reset head
+   68  git reset HEAD
+   69  git status
+   70  git log
+   71  git reset --mixed f1c2ec7
+   72  git status
+   73  sudo apt-get install g++
+   74  gedit hello.cpp
+   75  g++ hello.cpp
+   76  gedit hello.cpp
+   77  g++ hello.cpp
+   78  gedit hello.cpp
+   79  g++ hello.cpp
+   80  ./a.out
+   81  gedit notes.txt
+   82  g++ hello.cpp
+   83  ./a.out
+   84  mkdir midsem
+   85  cd midsem
+   86  vi.gitignore.doc
+   87  git clone https://github.com/csdv1003/MonitKapoor.git
+   88  git commit https://github.com/csdv1003/MonitKapoor/commits/master.git
+   89  git commit https://github.com/csdv1003/MonitKapoor/commits/master
+   90  cd midsem
+   91  git init
+   92  ls
+   93  git push -u origin master
+   94  git push -u origin master https://github.com/csdv1003/Midsem_R171218115.git
+   95  git commit -m "First Commit"
+   96  git remote add origin git remote add origin https://github.com/csdv1003/Midsem_R171218115.git
+   97  git remote add origin https://github.com/csdv1003/Midsem_R171218115.git
+   98  git push -u origin master
+   99  git init
+  100  git remote add origin master https://github.com/csdv1003/Midsem_R171218115.git
+  101  git push -u origin master
+  102  git commit -m "First Commit"
+  103  git remote add origin master https://github.com/csdv1003/Midsem_R171218115.git
+  104  git push -u origin master
+  105  cd midsem
+  106  git init
+  107  ls
+  108  git commit -m "First Commit"
+  109  git remote add origin master https://github.com/csdv1003/Midsem_R171218115.git
+  110  git remote add orig master https://github.com/csdv1003/Midsem_R171218115.git
+  111  mkdir Q3
+  112  cd Q3
+  113  gedit file1.txt
+  114  gedit file 2.txt
+  115  gedit file 3.txt
+  116  git push -u origin master
+  117  git init
+  118  git push -u origin master
+  119  cd Q3
+  120  git add
+  121  git add .
+  122  git commit -m "First Commit"
+  123  git push -u origin master
+  124  mkdir mcsher
+  125  cd mcsher
+  126  git init
+  127  git fetch origin
+  128  git clone https://github.com/Prakhh7/mcsher.git
+  129  vi file.txt
+  130  git add .
+  131  git commit -m "mkm"
+  132  git status
+  133  git push
+  134  git push -u origin master
+  135  mkdir lab7
+  136  cd lab 7
+  137  cd lab7
+  138  git init
+  139  vi file.cpp
+  140  cd lab 7
+  141  cd lab7
+  142  vi first.cpp
+  143  cd lab7
+  144  gedit first.cpp
+  145  gedit add.cpp
+  146  gedit sub.cpp
+  147  gedit pro.cpp
+  148  gedit div.cpp
+  149  git add .
+  150  git commit -m "First Commit"
+  151  git push -u origin master
+  152  git remote add origin https://github.com/Prakhh7/lab7.git
+  153  git push -u origin master
+  154  git add .
+  155  git commit -m "First Commit"
+  156  git push -u origin master
+  157  git remote add origin https://github.com/Prakhh7/lab7-2.git
+  158  git remote add orig https://github.com/Prakhh7/lab7-2.git
+  159  git commit -m "First Commit"
+  160  git push -u orig master
+  161  gedit main.cpp
+  162  gedit sub2.cpp
+  163  git add .
+  164  git commit -m "Second Commit"
+  165  git push -u orig master
+  166  git branch test
+  167  git branch test1
+  168  git checkout test
+  169  git push -u orig test
+  170  git remote add origin https://github.com/Prakhh7/lab7.git
+  171  vi add.cpp
+  172  vi sub.cpp
+  173  git add .
+  174  git commit -m "Third Commit"
+  175  git push -u orig master
+  176  git push -u origin master
+  177  git checkout test1
+  178  vi pro.cpp
+  179  vi div.cpp
+  180  git add .
+  181  git commit -m "Fourth Commit"
+  182  git push -u orig master
+  183  git push -u origin master
+  184  git push -u orig test1
+  185  git add .
+  186  git commit -m "Fourth Commit"
+  187  git push -u orig master
+  188  git checkout master
+  189  git merge test
+  190  git push -u orig master
+  191  git merge test1
+  192  git checkout master
+  193  git merge test1
+  194  git mergetool 
+  195  git mergetool --tool-help
+  196  git config --global merge.tool
+  197  git config --global merge.tool p4merge
+  198  git merge test
+  199  git merge test1
+  200  git config --global merge.tool kdiff3
+  201  git merge test1
+  202  git checkout master
+  203  git merge test
+  204  git mergetool
+  205  ls
+  206  cat main.cpp
+  207  git pull 
+  208  git push -u orig master
+  209  git merge test
+  210  git checkout master
+  211  git checkout test
+  212  cat add.cpp
+  213  git pull -u test
+  214  git pull -u orig test
+  215  git pull -u orig test1
+  216  git pull -p orig test1
+  217  cd lab7
+  218  history > log.txt
+  219  cat log.txt
+  220  git log
+  221  git status
+  222  cd lab7
+  223  git status
+  224  git log
+  225  git history
+  226  git --help
+  227  git merge b2
+  228  cat first.txt
+  229  git log
+  230  git status
+  231  git checkout b2
+  232  git add file3.txt
+  233  git commit -m "Third Commit"
+  234  git push -u origin b2
+  235  mkdir trial
+  236  cd trial
+  237  git init
+  238  gedit first.txt
+  239  git add first.txt
+  240  git commit -m "First Commit"
+  241  git remote add origin https://github.com/Prakhh7/Trial.git
+  242  git push -u origin master
+  243  git branch b1
+  244  git checkout b1
+  245  gedit file2.txt
+  246  gedit add file2.txt
+  247  git add file2.txt
+  248  git commit -m "Second Commit"
+  249  git push -u origin b1
+  250  git checkout master
+  251  git branch b2
+  252  git checkout b2
+  253  gedit file3.txt
+  254  git add file3.txt
+  255  git commit -m "Third Commit"
+  256  git push -u origin b2
+  257  git checkout master
+  258  git merge b1
+  259  git merge b2
+  260  mkdir try
+  261  cd try
+  262  git init
+  263  gedit file.txt
+  264  git add file.txt
+  265  git commit -m "First Commit"
+  266  git remote add origin https://github.com/Prakhh7/Trial.git
+  267  git push -u origin master
+  268  git branch b1
+  269  git checkout b1
+  270  gedit file2.txt
+  271  git add file2.txt
+  272  git commit -m "Second Commit"
+  273  git push -u origin b1
+  274  git checkout master
+  275  git merge b1
+  276  cat file1.txt
+  277  cat file.txt
+  278  cat file2.txt
+  279  git log
+  280  git status
+  281  git checkout master
+  282  git merge b1
+  283  cat file1.txt
+  284  cat file.txt
+  285  git checkout b1
+  286  git pull b1
+  287  git pull origin b1
+  288  git checkout master
+  289  git merge b1
+  290  git push -u origin master
+  291  git checkout b1
+  292  git fetch origin
+  293  cat file.txt
+  294  cat file2.txt
+  295  git push -u origin b1
+  296  git checkout master
+  297  git merge b1
+  298  git status
+  299  git checkout b1
+  300  git pull origin b1
+  301  history < log.txt
+  302  cat log.txt
+  303  history > log.txt
+  304  cat log.txt
+  305  gedit file.txt
+  306  git add file.txt
+  307  git commit -m "First Commit"
+  308  git push -u origin master
+  309  git checkout master
+  310  git add file.txt
+  311  git commit -m "First Commit"
+  312  git push -u origin master
+  313  mkdir merging
+  314  cd merging
+  315  gedit file.txt
+  316  git init
+  317  git add file.txt
+  318  git commit -m "First Commit"
+  319  git remote add origin https://github.com/Prakhh7/Merge.git
+  320  git push -u origin master
+  321  git branch b1
+  322  git checkout b1
+  323  gedit file2.txt
+  324  git add file2.txt
+  325  git commit -m "Second Commit"
+  326  git push -u origin b1
+  327  git checkout master
+  328  git merge b1
+  329  git push -u origin master
+  330  git checkout b1
+  331  git pull origin b1
+  332  git fetch origin b1
+  333  git checkout master
+  334  git mergetool
+  335  git merge b1
+  336  git push -u origin master
+  337  history > log.txt
+  338  cat log.txt
+  339  ls
+  340  git add file.txt
+  341  git commit -m "First Commit"
+  342  git push -u origin master
+  343  mkdir merge2
+  344  cd merge2
+  345  gedit file.txt
+  346  git init
+  347  git add file.txt
+  348  git remote add origin
+  349  git remote add origin https://github.com/Prakhh7/Merge.git
+  350  git push -u origin master
+  351  git add file.txt
+  352  git commit -m "First Commit"
+  353  git push -u origin master
+  354  gedit file.txt
+  355  git add file.txt
+  356  git commit -m "Second Commit"
+  357  git push -u origin master
+  358  gedit file.txt
+  359  git add file.txt
+  360  git commit -m "Third Commit"
+  361  git push -u origin master
+  362  gedit file.txt
+  363  git add file.txt
+  364  git commit -m "Fourth Commit"
+  365  git push -u origin master
+  366  git branch b1
+  367  git checkout b1
+  368  gedit file2.txt
+  369  git add file2.txt
+  370  git commit -m "Fifth Commit"
+  371  git push -u origin b1
+  372  gedit file2.txt
+  373  git add file2.txt
+  374  git commit -m "Sixth Commit"
+  375  git push -u origin b1
+  376  git checkout master
+  377  git rebase b1
+  378  git rebase --interactive
+  379  git rebase b1
+  380  git rebase --interactive
+  381  git rebase --interactive --continue
+  382  cd ..
+  383  cd 
+  384  cd ..
+  385  cd merge
+  386  cd merge2
+  387  cd home
+  388  cd merge2
+  389  cd merge
+  390  cd ~
+  391  cd merge2
+  392  cd !
+  393  cd ~
+  394  cd home
+  395  cd kush
+  396  mkdir kush
+  397  cd kush
+  398  vi file.txt
+  399  git add .
+  400  git init
+  401  git add .
+  402  git commit -m "m1"
+  403  git remote add origin https://github.com/Prakhh7/kush.git
+  404  git push -u origin master
+  405  vi file.txt
+  406  git rebase --interactive
+  407  cd~
+  408  cd ~
+  409  cd merge
+  410  cdmerge2
+  411  cd merge2
+  412  git rebase --interactive
+  413  git remote add my friend git://github.com/kushagra67414/merging
+  414  git remote add myfriend git://github.com/kushagra67414/merging
+  415  git remote add myfriend git://github.com/Prakhh7/lab7
+  416  mkdir project
+  417  git init
+  418  git remote add origin https://github.com/Prakhh7/Project.git
+  419  git remote remove origin
+  420  cd project
+  421  git init
+  422  git remote add origin https://github.com/Prakhh7/Project.git
+  423  mkdir project
+  424  cd project
+  425  git init
+  426  git remote add origin https://github.com/b-tech-cse-devops-project/Project_Prakhhar.git
+  427  mkdir project
+  428  cd project
+  429  git init
+  430  gedit add.txt
+  431  git stage .
+  432  git commit -m "First Commit"
+  433  git remote add origin https://github.com/b-tech-cse-devops-project/Project_Prakhhar.git
+  434  git push -u origin master
+  435  mkdir Project
+  436  cd Project
+  437  gedit main.cpp
+  438  git add main.cpp
+  439  git commit -m "First Commit"
+  440  git remote add origin https://github.com/Prakhh7/Project_Prakhhar.git
+  441  git remote add ori https://github.com/Prakhh7/Project_Prakhhar.git
+  442  git push -u ori master
+  443  git branch devashish
+  444  git branch deva
+  445  git checkout deva
+  446  gedit func1.cpp
+  447  git add func1.cpp
+  448  git commit -m "Second Commit"
+  449  git push -u ori deva
+  450  git branch kush
+  451  git checkout kush
+  452  gedit func1.cpp
+  453  git add func1.cpp
+  454  git commit -m "Third Commit"
+  455  gedit func2.cpp
+  456  git add func2.cpp
+  457  git coomit -m "Third Commit"
+  458  git commit -m "Third Commit"
+  459  git push -u ori kush
+  460  git branch abhi
+  461  git checkout abhi
+  462  gedit func3.cpp
+  463  git add func3.cpp
+  464  git commit -m "Fourth Commit"
+  465  git push -u ori abhi
+  466  git checkout ori
+  467  git checkout master
+  468  git pull https://github.com/Prakhh7/Project_Prakhhar.git
+  469  git status
+  470  git log
+  471  cat log.txt
+  472  history>log.txt
